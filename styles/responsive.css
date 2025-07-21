@@ -1,0 +1,47 @@
+
+
+/* Responsive media query */
+
+/* Small size devices like mobiles */
+
+@media screen and (max-width: 576px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .nav-links {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    padding: 30px;
+    gap: 40px;
+    margin: 20px auto;
+  }
+
+  .bg-circle {
+    width: 100%;
+  }
+
+  .banner-txt {
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner-title {
+    font-size: 2.25rem;
+  }
+
+}
+
+
+
+
+/* Medium size devices like tablets or landscap size of mobiles */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  
+}

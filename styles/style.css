@@ -12,7 +12,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 /* shared styles */
@@ -112,8 +111,8 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    object-fit: contain;
+    /* width: 100%; */
+    /* object-fit: contain; */
     z-index: -1;
 }
 
