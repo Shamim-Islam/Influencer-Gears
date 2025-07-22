@@ -1,11 +1,8 @@
-
-
 /* Responsive media query */
 
 /* Small size devices like mobiles */
 
 @media screen and (max-width: 576px) {
-
   .navbar {
     flex-direction: column;
     gap: 30px;
@@ -13,6 +10,7 @@
   .nav-links {
     /* flex-direction: column; */
     flex-wrap: wrap;
+    margin-left: 25px;
   }
 
   .banner {
@@ -35,13 +33,39 @@
     font-size: 2.25rem;
   }
 
+  .company {
+    padding: 30px;
+  }
+
+  .company-container {
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .company-container img {
+    width: 100%;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    margin: auto 15px;
+  }
+
+  .btn-simple a {
+    margin-right: 20px;
+  }
+  .features {
+    flex-direction: column-reverse;
+    margin: 50px 20px;
+    text-align: center;
+  }
 }
-
-
-
 
 /* Medium size devices like tablets or landscap size of mobiles */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  
 }
